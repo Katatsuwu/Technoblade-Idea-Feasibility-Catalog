@@ -15,3 +15,7 @@ In the repository, open **Settings -> Pages**. Choose **Deploy from a branch**, 
 ## Source and scope
 
 The catalog uses the ten proposals with titles and descriptions in the provided PDF. Items 11-15 are blank `Idea / Idea Overview` placeholders, so they are not presented as proposals. The original titles, suggestor names, and descriptions are shown in the list and detail banner. Expanded sections and feasibility percentages are preliminary project-planning judgments, not findings from a feasibility study. Each set of IEEE references links to an IEEE Xplore search for the paper title; full text may require institutional access.
+
+## Shared live voting
+
+The page has per-idea vote toggles with shared live totals. To connect the backend, follow [VOTING_SETUP.md](VOTING_SETUP.md). Until configured, vote buttons remain disabled.

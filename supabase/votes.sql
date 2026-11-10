@@ -3,11 +3,14 @@
 -- Then enable Anonymous Sign-Ins in Authentication -> Sign In / Providers.
 
 create table if not exists public.votes (
-  idea_id integer not null check (idea_id between 1 and 10),
+  idea_id integer not null check (idea_id between 1 and 11),
   user_id uuid not null references auth.users(id) on delete cascade,
   created_at timestamptz not null default now(),
   primary key (user_id, idea_id)
 );
+
+alter table public.votes drop constraint if exists votes_idea_id_check;
+alter table public.votes add constraint votes_idea_id_check check (idea_id between 1 and 11);
 
 alter table public.votes enable row level security;
 

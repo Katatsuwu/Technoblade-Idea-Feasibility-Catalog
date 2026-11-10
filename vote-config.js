@@ -1,6 +1,6 @@
-// Public browser configuration only. The Supabase anon/publishable key is designed to be public.
-// Never place a service_role key or database password in this file.
+// Public browser configuration only. The Supabase publishable key is designed to be public.
+// Never put a secret key or database password in this file.
 window.VOTE_CONFIG = {
-  url: "",
-  anonKey: ""
+  url: "https://wbvtonznefmvliyuvomb.supabase.co",
+  anonKey: "sb_publishable_dXMtoQPjhX3_s_P5cR-QKw_4gOYfnC1"
 };

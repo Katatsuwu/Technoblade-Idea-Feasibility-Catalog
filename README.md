@@ -1,12 +1,12 @@
 # Technoblade Idea Feasibility Catalog
 
-A responsive, dark-themed, single-page catalog for the ten complete proposals in **Project Proposal Suggestions.pdf**.
+A responsive, light-themed, single-page catalog for the ten complete proposals in **Project Proposal Suggestions.pdf**.
 
 ## Included
 
 - Searchable proposal list showing the source title, suggestor, and original description.
 - Detail view for each proposal with motivation, project overview, stakeholders, technology, risks, possible parts/software, five IEEE-related references, and a preliminary third-year feasibility estimate.
-- No framework, build step, or external asset dependency. Open `index.html` locally to preview.
+- No build step is required. The Supabase browser client is loaded from a CDN for live voting; catalog content still loads if voting is not configured.
 
 ## Publish with GitHub Pages
 
